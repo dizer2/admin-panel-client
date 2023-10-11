@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap");
+.button {
+  border-radius: 4px;
+  background: #FFDD56;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4px;
+  line-height: auto;
+  letter-spacing: auto;
+  color: #fff;
+  margin-top: 0px;
+  transition: 0.5s;
+  border: none;
+  cursor: pointer; }
+  .button:hover {
+    background-color: transparent;
+    border: 1px solid #FFDD56;
+    color: #FFDD56;
+    transition: 0.5s; }
+
+/*# sourceMappingURL=Button.css.map */

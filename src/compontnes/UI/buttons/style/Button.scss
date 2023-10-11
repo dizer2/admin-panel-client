@@ -1,0 +1,23 @@
+@import "../../../main/mixins.scss";
+@import "../../../main/mixins.scss";
+@import "../../../main/variable.scss";
+
+
+.button {
+	border-radius: 4px;
+	background: #FFDD56;
+	@include font(#fff, 4px, 700, auto, auto, 0px);
+	transition: 0.5s;
+
+	border: none;
+	cursor: pointer;
+
+	&:hover{
+		background-color: transparent;
+		border: 1px solid $mainColor;
+		color: $mainColor;
+		transition: 0.5s;
+
+	}
+
+}

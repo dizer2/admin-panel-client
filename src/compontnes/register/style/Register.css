@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.register {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+  .register__form {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
+    .register__form-title {
+      font-family: 'Montserrat Alternates';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: auto;
+      letter-spacing: auto;
+      color: #333;
+      margin-top: 0px;
+      margin-bottom: 20px; }
+      .register__form-title::first-letter {
+        color: #FFDD56; }
+    .register__form-box {
+      margin-top: 20px; }
+      .register__form-box .register__input-title {
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: auto;
+        letter-spacing: auto;
+        color: #979797;
+        margin-top: 0px; }
+      .register__form-box .register__input {
+        width: 450px;
+        height: 80px;
+        border-radius: 4px;
+        padding: 0 20px;
+        background-color: transparent;
+        border: 1px solid #FFDD56;
+        outline: none;
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: auto;
+        letter-spacing: auto;
+        color: #FFDD56;
+        margin-top: 5px; }
+    .register__form-signUp {
+      width: 450px;
+      height: auto; }
+      .register__form-signUp p {
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: auto;
+        letter-spacing: auto;
+        color: #C4C4C4;
+        margin-top: 20px;
+        cursor: pointer; }
+        .register__form-signUp p span {
+          color: #56FF7B; }
+    .register__form-button {
+      margin-top: 70px; }
+
+/*# sourceMappingURL=Register.css.map */

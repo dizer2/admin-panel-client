@@ -1,0 +1,66 @@
+@import "../../main/main.scss";
+@import "../../main/mixins.scss";
+@import "../../main/variable.scss";
+
+.register {
+	width: 100%;
+	height: 100vh;
+	@include display-center(center, center);
+
+	&__form {
+		width: auto;
+		height: auto;
+		@include display-center(center, center);
+		flex-direction: column;
+
+		&-title {
+			@include font(#333, 48px, 600, auto, auto, 0px);
+			margin-bottom: 20px;
+			&::first-letter {
+				color: $mainColor;
+			}
+		}
+
+
+		&-box {
+			margin-top: 20px;
+
+			.register__input-title {
+				@include font($gray, 16px, 500, auto, auto,0px);
+			}
+			
+			.register__input {
+				width: 450px;
+				height: 80px;
+				border-radius: 4px;
+				padding: 0 20px;
+
+
+				background-color: transparent;
+				border: 1px solid #FFDD56;
+				outline: none;
+
+				@include font($mainColor, 24px, 700, auto, auto, 5px);
+
+			}
+		}
+
+		&-signUp {
+			width: 450px;
+			height: auto;
+			p {
+				@include font($ligthGray, 16px, 500, auto, auto, 20px);
+				cursor: pointer;
+
+				span {
+					color: $green;
+				}
+			}
+		}
+
+		&-button{
+			margin-top: 70px;
+		}
+	}
+
+}
